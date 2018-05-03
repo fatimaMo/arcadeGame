@@ -85,7 +85,7 @@ Player.prototype.handleInput = function(key) {
         // increease score by 1 when the player already on water
         this.score += 1;
         if (this.score === 15) {
-            alert("Congratulatoion! You Won!");
+            alert("Congratulation! You Won!");
             this.score = 0;
         }
         setTimeout(function() {
