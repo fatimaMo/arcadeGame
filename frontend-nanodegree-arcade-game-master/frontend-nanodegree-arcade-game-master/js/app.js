@@ -48,11 +48,11 @@ var Player = function(x, y, speed) {
     this.sprite = 'images/char-cat-girl.png';
     this.score = 0;
 
-}
+};
 
 Player.prototype.update = function(dt) {
 
-}
+};
 
 Player.prototype.render = function() {
     ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
@@ -95,7 +95,7 @@ Player.prototype.handleInput = function(key) {
 
 
     }
-}
+};
 
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
