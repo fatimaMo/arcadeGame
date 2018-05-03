@@ -15,3 +15,4 @@ Instalation:
 Game Rule:
  
  - Use the arrow keys to start play
+ - Player Win When got 15 scores 
